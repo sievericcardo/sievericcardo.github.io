@@ -11,26 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Formal Methods and Software Engineering for Digital Twins, (in progress)
+* M.S. in Computer Science, University of Turin, 2019 - 2021
+* B.S. in Computer Science, University of Turin, 2015 - 2019
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* August 2023 - Present: PhD Research Fellow - University of Oslo
+  * Worked on three main research projects, namely the BedreFlyt project, GreenHouse project and OsloFjord project
+  * Collaborated with international universities across Norway, UK, Italy and Denmark
+  * Implemented Digital Twins for social, environmental and cyber-physical systems
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2021 - August 2023: Software Engineer - MAIS S.r.l.
+  * Worked on a full stack applications, adding features on the Jsp and javascript frontend and Spring backend
+  * Refactored a Python software using PySpark setting up a Spark cluster
+  * Conducted over 10 technical interviews for candidates
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* September 2019 - August 2023: CyberSecurity Consultant - ISCS S.r.l.
+  * Worked as a consultant with Juventus Football Club S.p.a., ARIA S.p.a. for cybersecurity and compliance, integrating aspects of compliance and integrity into the monitoring and auditing processes, and aiding 100+ consultants and employees
+  * Defined and managed documents to register and monitor both assets and risks to keep the infrastructure under control
+  * Maintained and updated a security baseline according to the NIST framework
+
+* 2016 - 2019: Web Developer and Software Engineer - Teamware Informatica
   
 Skills
 ======
