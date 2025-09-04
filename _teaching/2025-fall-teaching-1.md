@@ -8,13 +8,18 @@ date: 2025-08-20
 location: "Oslo, Norway"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+The IN5071 is a course offered at the University of Oslo that focuses on the theoretical and practical aspects of concurrency in computer science. The course covers various models of concurrency, including semaphores, monitors, actors, and channels.
 
-Heading 1
+Course description
 ======
 
-Heading 2
+The course provides a comprehensive introduction to the principles of concurrency, exploring both foundational concepts and advanced topics. Students will engage with various models of concurrency, learning how to apply them in practical scenarios, and implementing them in mandatory programming assignments.
+
+Course duties
 ======
 
-Heading 3
+As a teaching assistant for this course, I was responsible for preparing and delivering lectures, exercise and grading assignments. The lectures I had to prepare were on the topics of concurrency models and types in Rust.
+
+Self-reflection
 ======
+

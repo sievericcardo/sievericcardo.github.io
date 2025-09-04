@@ -8,7 +8,7 @@ date: 2025-08-20
 location: "Oslo, Norway"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+The IN2031 is a course offered at the University of Oslo that focuses on the design and implementation of domain-specific languages (DSLs). The course is structured around a project where students work in teams to create a DSL for a specific application domain.
 
 Course description
 ======
