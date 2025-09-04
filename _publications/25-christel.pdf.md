@@ -3,7 +3,7 @@ title: "What-If Scenarios for the BedreFlyt Digital Twin"
 collection: publications
 permalink: /publication/2025-08-http://academicpages.github.io/files/25-christel.pdf
 excerpt: 'Digital twin technology is emerging as a valuable tool for both short-term decision-making and long-term strategic planning across domains such as process industry, energy, space, transport, and healthcare. This paper reports on ongoing work in designing a digital twin to enhance resource planning in hospitals, e.g., for in-patient needs. Our focus here is on a novel technique to express what-if scenarios in digital twins to improve strategic planning processes, spanning, e.g., average-case and worst-case resource needs, expected patient treatments, and ranging over variations in available resources such as bed bays in the hospital ward. Due to the modularity of our digital twin architecture, different what-if scenarios can be explored simply by configuring the digital twin’s orchestrator, which triggers a formal methods analysis pipeline that combines executable formal models for simulation, optimization over constraints and a knowledge base that formalizes domain knowledge. We illustrate what-if scenario analysis in our digital twin architecture by considering the problem of bed bay allocation in a hospital ward. 1(4).'
-date: 2025-08
+date: 2025-08-30
 venue: 'In: Principles of Formal Quantitative Analysis. LNCS 15760. © Springer 2025.'
 citation: '25-christel'
 ---
