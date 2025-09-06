@@ -34,14 +34,14 @@ Work experience
 
 * 2016 - 2019: Web Developer and Software Engineer - Teamware Informatica
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
@@ -49,11 +49,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -63,4 +63,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Member of the artifact evaluation committee for the 26th International Symposium on Formal Methods (FM 2024)
+* Sub-reviewer for the 2nd International Conference on Engineering Digital Twins (EDTconf 2025)
+* Member of the Program Committee for the artifact evaluation track of the 20th International Conference on Integrated Formal Methods (iFM 2025)
+* Member of the Volunteering Chair for the International Joint Conferences On Theory and Practice of Software (ETAPS 2026)
