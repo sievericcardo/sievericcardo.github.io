@@ -1,14 +1,14 @@
 ---
-title: "IN5071 - Models of Concurrency"
+title: "IN5170 - Models of Concurrency"
 collection: teaching
 type: "Graduate course"
-permalink: /teaching/2025-fall-in5071
+permalink: /teaching/2025-fall-in5170
 venue: "University of Oslo, Department of Informatics"
 date: 2025-08-20
 location: "Oslo, Norway"
 ---
 
-The IN5071 is a course offered at the University of Oslo that focuses on the theoretical and practical aspects of concurrency in computer science. The course covers various models of concurrency, including semaphores, monitors, actors, and channels.
+The IN5170 is a course offered at the University of Oslo that focuses on the theoretical and practical aspects of concurrency in computer science. The course covers various models of concurrency, including semaphores, monitors, actors, and channels.
 
 Course description
 ======
