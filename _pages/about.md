@@ -17,7 +17,7 @@ Over the years, I have had the opportunity to work on a variety of programming p
 
 Looking ahead, I am excited to continue growing as a developer and explore emerging fields such as artificial intelligence and cloud computing. My goal is to combine my technical expertise with creativity to build impactful solutions and inspire others to pursue their passion for technology.
 
-About me
+My current role
 ======
 I am currently a PhD Research Fellow at the University of Oslo, working on Digital Twins for social, environmental and cyber-physical systems in the [Reliable Systems group](https://www.mn.uio.no/ifi/english/research/groups/psy/). My research focuses on applying formal methods and software engineering principles to develop robust and efficient digital representations of real-world systems.
 

@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* August 2023 - Present: PhD Research Fellow - University of Oslo
+* September 2023 - Present: PhD Research Fellow - University of Oslo
   * Worked on three main research projects, namely the BedreFlyt project, GreenHouse project and OsloFjord project
   * Collaborated with international universities across Norway, UK, Italy and Denmark
   * Implemented Digital Twins for social, environmental and cyber-physical systems
