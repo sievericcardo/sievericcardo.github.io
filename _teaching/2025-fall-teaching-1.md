@@ -23,3 +23,4 @@ As a teaching assistant for this course, I was responsible for preparing and del
 Self-reflection
 ======
 
+The feedback I received from the students was generally positive, with many appreciating the clarity and depth of the lectures. However, some students found certain concepts challenging, particularly those related to advanced concurrency models. To address this, I plan to incorporate more examples and practical exercises in future iterations of the course to help students better grasp these complex topics. Additionally, I will seek further feedback from students to continuously improve the course content and delivery.
