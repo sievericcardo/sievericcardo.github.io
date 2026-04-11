@@ -47,7 +47,23 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
+        {% if page.citation and page.paperurl and page.slidesurl and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.paperurl and page.slidesurl and page.doiurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.citation and page.paperurl and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.slidesurl and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.paperurl and page.doiurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.citation and page.slidesurl and page.doiurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.citation and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.citation and page.doiurl %}
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
@@ -59,6 +75,22 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a></p>
+        {% elsif page.slidesurl and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.paperurl and page.slidesurl and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.paperurl and page.slidesurl and page.doiurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.paperurl and page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.paperurl and page.doiurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Preprint</a> | <a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.slidesurl and page.doiurl %}
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.doiurl }}">DOI</a></p>
+        {% elsif page.doiurl and page.bibtexurl %}
+          <p style="font-size: smaller"><a href="{{ page.doiurl }}">DOI</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.doiurl %}
+          <p style="font-size: smaller"><a href="{{ page.doiurl }}">DOI</a></p>
         {% elsif page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.paperurl and page.bibtexurl %}
