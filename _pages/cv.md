@@ -63,6 +63,7 @@ Teaching
   
 Service and leadership
 ======
+* Technical Review Committee Member in the EDTconf SoSyM Journal Track (2026)
 * Member of the Volunteering Chair for the International Joint Conferences On Theory and Practice of Software (ETAPS 2026)
 * Member of the Program Committee for the artifact evaluation track of the 20th International Conference on Integrated Formal Methods (iFM 2025)
 * Sub-reviewer for the 2nd International Conference on Engineering Digital Twins (EDTconf 2025)
